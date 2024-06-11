@@ -9,14 +9,4 @@ public interface Supermarket {
 
     void delete(int index);
 
-    public interface SupermarketList {
-
-        void add(final String item);
-
-        void print();
-
-        void delete(final int index);
-
-    }
-
 }
